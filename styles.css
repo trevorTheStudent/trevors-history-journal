@@ -87,3 +87,23 @@ footer p {
     padding-left: 2em;
     margin-bottom: 12px;
 }
+
+.figure {
+    text-align: center;
+    margin: 20px 0 30px;
+}
+
+.figure img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.figure-caption {
+    margin: 8px auto 0;
+    text-indent: 0;
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}

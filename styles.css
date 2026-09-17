@@ -1,34 +1,83 @@
+
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Georgia, "Times New Roman", serif;
-    color: #222;
-    background-color: #fff;
-    line-height: 1.7;
     margin: 0;
-    padding: 0 8%;
+    padding: 0 6%;
+    background-color: #fdfdfd;
+    color: #222;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+header {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 50px 0 35px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 8px;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+header p {
+    margin: 0;
+    font-size: 1rem;
 }
 
 main {
-    max-width: 800px;
+    width: 100%;
+    max-width: 850px;
     margin: 0 auto;
 }
 
-h1 {
+main > h2 {
+    margin: 25px 0 45px;
     text-align: center;
-    margin-top: 50px;
+
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+section {
     margin-bottom: 40px;
 }
 
-h2,
 h3 {
+    margin: 40px 0 20px;
+
     text-align: center;
+    font-size: 1.25rem;
+    font-weight: normal;
 }
 
-h2 {
-    margin-top: 40px;
-    margin-bottom: 20px;
+p {
+    margin: 0 0 1.2em;
 }
 
-h3 {
-    margin-top: 30px;
-    margin-bottom: 15px;
+section p {
+    text-indent: 2em;
+}
+
+
+h3 + p {
+    text-indent: 2em;
+}
+
+footer {
+    max-width: 850px;
+    margin: 70px auto 0;
+    padding: 25px 0 40px;
+
+    border-top: 1px solid #ccc;
+
+    text-align: center;
+    font-size: 0.85rem;
 }

@@ -52,6 +52,14 @@ h3 {
     font-weight: normal;
 }
 
+h4 {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    font-weight: normal;
+    text-align: center;
+}
+
 p {
     margin: 0 0 1.2em;
     text-indent: 2em;
@@ -67,4 +75,15 @@ footer {
 footer p {
     text-indent: 0;
     font-size: 0.9rem;
+}
+
+.footnotes p {
+    text-indent: 0;
+    margin-bottom: 12px;
+}
+
+.bibliography p {
+    text-indent: -2em;
+    padding-left: 2em;
+    margin-bottom: 12px;
 }

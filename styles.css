@@ -90,23 +90,24 @@ footer p {
 
 .figure {
     width: 100%;
-    margin: 15px 0 20px;
+    margin: 10px 0;
+    padding: 0;
     text-align: center;
 }
 
 .figure img {
     display: block;
-    width: 100%;
+    width: auto;
     max-width: 650px;
     height: auto;
     margin: 0 auto;
 }
 
 .figure-caption {
-    margin: 5px auto 0;
+    margin: 4px 0 0;
     padding: 0;
     text-indent: 0;
     text-align: center;
     font-size: 0.85rem;
-    line-height: 1.4;
+    line-height: 1.3;
 }

@@ -89,21 +89,24 @@ footer p {
 }
 
 .figure {
+    width: 100%;
+    margin: 15px 0 25px;
     text-align: center;
-    margin: 20px 0 30px;
 }
 
 .figure img {
     display: block;
-    max-width: 100%;
+    width: 100%;
+    max-width: 650px;
     height: auto;
     margin: 0 auto;
 }
 
 .figure-caption {
-    margin: 8px auto 0;
+    margin: 6px auto 0;
+    padding: 0;
     text-indent: 0;
     text-align: center;
-    font-size: 0.9rem;
-    line-height: 1.5;
+    font-size: 0.85rem;
+    line-height: 1.4;
 }

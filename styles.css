@@ -90,7 +90,7 @@ footer p {
 
 .figure {
     width: 100%;
-    margin: 15px 0 25px;
+    margin: 15px 0 20px;
     text-align: center;
 }
 
@@ -103,7 +103,7 @@ footer p {
 }
 
 .figure-caption {
-    margin: 6px auto 0;
+    margin: 5px auto 0;
     padding: 0;
     text-indent: 0;
     text-align: center;

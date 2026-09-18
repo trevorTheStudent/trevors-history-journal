@@ -89,7 +89,7 @@ footer p {
 
 
 .figure {
-    margin: 0 0 25px;
+    margin: 0 0 20px;
     padding: 0;
     text-align: center;
 }
@@ -103,15 +103,10 @@ footer p {
 }
 
 .figure-caption {
-    margin: 6px 0 0;
+    margin: 4px 0 0;
     padding: 0;
     text-indent: 0;
     text-align: center;
     font-size: 0.85rem;
-    line-height: 1.4;
-}
-
-
-.figure + section h3 {
-    margin-top: 0;
+    line-height: 1.3;
 }

@@ -1,6 +1,6 @@
 # U.S. History Journal
 
-A simple multi-page static website for Trevor Whitehead's U.S. History Journal.
+A simple multi-page static website.
 
 ## Project structure
 
